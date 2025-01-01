@@ -1,6 +1,6 @@
-# provider_example
+ # provider_example
 
-A new Flutter project.
+Using provider statemanagement 
 
 ## Getting Started
 
