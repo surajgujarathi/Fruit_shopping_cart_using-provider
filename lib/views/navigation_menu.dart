@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:provider_example/cartprovider.dart';
-import 'package:provider_example/cartscreeen.dart';
-import 'package:provider_example/fruit_data.dart';
+import 'package:provider_example/model/fruit_data.dart';
+
 import 'package:provider_example/navigation_controller.dart';
+import 'package:provider_example/providers/cartprovider.dart';
+import 'package:provider_example/views/cartscreeen.dart';
 
 class NavigationMenu extends StatelessWidget {
   const NavigationMenu({Key? key}) : super(key: key);

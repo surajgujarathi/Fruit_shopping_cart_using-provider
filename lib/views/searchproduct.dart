@@ -7,15 +7,18 @@ class SearchProduct extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        TextFormField(
-          decoration: const InputDecoration(
-            hintText: 'Search product...',
-            suffixIcon: Icon(Icons.search),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: TextFormField(
+            decoration: const InputDecoration(
+              hintText: 'Search product...',
+              suffixIcon: Icon(Icons.search),
+            ),
+            onChanged: (value) {
+              // Implement your search logic here
+              // You can use a provider to update the product list based on the search query
+            },
           ),
-          onChanged: (value) {
-            // Implement your search logic here
-            // You can use a provider to update the product list based on the search query
-          },
         ),
       ],
     );

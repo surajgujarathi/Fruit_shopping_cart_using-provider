@@ -16,6 +16,10 @@ class Item {
 final List<Item> catalog = [
   Item(
       image: 'assets/banana.png', price: 10.0, productName: 'Banana', units: 0),
+  Item(
+      image: 'assets/banana.png', price: 10.0, productName: 'Banana', units: 0),
+  Item(
+      image: 'assets/banana.png', price: 10.0, productName: 'Banana', units: 0),
   Item(image: 'assets/apple.png', price: 17.2, productName: 'Apple', units: 0),
   Item(
       image: 'assets/dragonfruit.png',

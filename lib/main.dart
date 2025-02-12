@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
-import 'package:provider_example/cartprovider.dart';
+
 import 'package:provider_example/navigation_controller.dart';
-import 'package:provider_example/navigation_menu.dart';
+
+import 'package:provider_example/views/navigation_menu.dart';
+
+import 'providers/cartprovider.dart';
 
 void main() {
   runApp(MyApp());
